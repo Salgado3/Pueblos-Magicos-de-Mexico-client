@@ -1,8 +1,21 @@
-img {
-    height: 50%;
-    width: 50%;
-    margin: auto;
-}
-html {
-    background: blanchedalmond;
-}
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+html{
+    margin: 0 auto;
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center;
+  background-size: 100% 170%;
+    background-image: url("https://images.unsplash.com/flagged/photo-1572465213253-31b7e7f634ec?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80");
+  }
+  
